@@ -40,7 +40,7 @@ opt.t_stride = 3
 opt.loss_on_raw = False
 opt.prev_warp = True
 opt.save_image = True
-opt.save_video = True
+opt.save_video = False
 if opt.save_video:
     import pims
 
