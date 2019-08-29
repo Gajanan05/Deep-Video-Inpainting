@@ -15,6 +15,7 @@ import time
 import subprocess as sp
 import pickle
 import pdb
+import pims
 
 class Object():
     pass
@@ -39,7 +40,7 @@ opt.t_stride = 3
 opt.loss_on_raw = False
 opt.prev_warp = True
 opt.save_image = True
-opt.save_video = False
+opt.save_video = True
 if opt.save_video:
     import pims
 
